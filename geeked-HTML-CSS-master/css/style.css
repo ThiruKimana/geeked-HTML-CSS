@@ -1,0 +1,362 @@
+/**
+ * Theme Name: GeekedType
+ * Theme URL: http://geekedtype.com
+ * Description: This is just the template for displaying 404 pages (not found)-- WordPress version Twenty_Sixteen
+ * Author: Thiru Kimana <kimstilltheman@geekedtype.com>
+ * Theme Version: v1.0.0
+ **/
+
+
+
+
+
+
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline
+}
+
+body {
+	line-height: 1
+}
+
+button {
+	outline: 0
+}
+
+ol, ul {
+	list-style: none
+}
+
+blockquote, q {
+	quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none
+}
+
+q {
+	display: inline;
+	font-style: italic
+}
+
+q:before {
+	content: '"';
+	font-style: normal
+}
+
+q:after {
+	content: '"';
+	font-style: normal
+}
+
+textarea, input[type="text"], input[type="button"], input[type="submit"],
+	input[type="reset"], input[type="search"], input[type="password"] {
+	-webkit-appearance: none;
+	appearance: none;
+	border-radius: 0
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+th, td {
+	padding: 2px
+}
+
+big {
+	font-size: 120%
+}
+
+small, sup, sub {
+	font-size: 80%
+}
+
+sup {
+	vertical-align: super
+}
+
+sub {
+	vertical-align: sub
+}
+
+dd {
+	margin-left: 20px
+}
+
+kbd, tt {
+	font-family: courier;
+	font-size: 12px
+}
+
+ins {
+	text-decoration: underline
+}
+
+del, strike, s {
+	text-decoration: line-through
+}
+
+dt {
+	font-weight: bold
+}
+
+address, cite, var {
+	font-style: italic
+}* { margin: 0; padding: 0; }
+
+article, aside, figure, footer, header, nav, section,  { display: block; }
+html{
+	 
+		
+}
+body {font-family : Myriad Pro;
+font-weight : regular;
+font-size 	: 14px;
+
+ }
+
+ 
+ 
+ 
+ #Main {
+        background:gray url(../images/background.png);
+		display: block;
+		left: auto;
+		right:auto;
+		width: 1280px;
+		background-repeat:no-repeat;
+ 
+ }
+
+ 
+ 
+header{
+position:relative;
+width:1280px;
+height:200px;
+margin-bottom: 315px;	
+background: url(../images/bg-header.png);
+background-repeat:no-repeat;
+
+}
+		
+#Logo{	
+left: auto;
+right:auto;
+width: 404px;
+height: 156px;
+background-repeat:no-repeat;
+background:url(../images/logo-wording.png);
+
+			
+
+} 
+#Login-Menu{
+
+}	
+
+h1{font-family: Myriad Pro;
+bottom:30px;
+position:absolute;
+left:150px;
+font-size:16px;
+font-weight:bold;
+color:white;
+text-transform:uppercase;
+
+}
+header p{
+font-family:Myriad Pro,Helvetica;
+position:absolute;
+bottom:50px;
+left:150px;
+font-size:16px;
+font-weight:normal;
+color:white;
+text-transform:uppercase;	
+	
+}
+
+
+#nav{	
+
+position:relative;
+width:960px;
+height:100px;
+margin-top:355px;
+margin-bottom:10px;
+margin-left: auto;
+margin-right: auto;
+background:gray url(../images/links-b.g-new.png);
+background-repeat:no-repeat;
+
+}
+#nav li{
+	
+	 position:relative;
+	 
+	
+	
+}
+#nav ul{
+
+	list-style:none;
+	padding-top:35px;
+	padding-left:20px;
+
+}
+#nav ul:after 
+{
+	content:"."; 
+	display:block;
+	height:0;
+	clear:both; 
+	visibility:hidden;
+	}  
+#nav ul a{
+	display:block;
+	float:left;
+	margin-left: 0;
+    margin-right: 10px;
+	color:white;
+	font-family:Myriad Pro;
+	font-size:16px;
+	text-decoration:none;
+}
+
+.Button { 
+	background : -moz-radial-gradient(50% 50%, circle farthest-corner, rgba(164, 83, 54, 1) 0%, rgba(149, 84, 61, 1) 14.44%, rgba(116, 86, 76, 1) 50.2%, rgba(95, 88, 85, 1) 80.01%, rgba(88, 88, 88, 1) 100%);
+	background : -webkit-radial-gradient(50% 50%, circle farthest-corner, rgba(164, 83, 54, 1) 0%, rgba(149, 84, 61, 1) 14.44%, rgba(116, 86, 76, 1) 50.2%, rgba(95, 88, 85, 1) 80.01%, rgba(88, 88, 88, 1) 100%);
+	background : -webkit-gradient(radial,50% 50% ,0 , 50% 50%, 69.34 ,color-stop(0,rgba(164, 83, 54, 1) ),color-stop(0.1444,rgba(149, 84, 61, 1) ),color-stop(0.502,rgba(116, 86, 76, 1) ),color-stop(0.8001,rgba(95, 88, 85, 1) ),color-stop(1,rgba(88, 88, 88, 1) ));
+	background : -o-radial-gradient(50% 50%, circle farthest-corner, rgba(164, 83, 54, 1) 0%, rgba(149, 84, 61, 1) 14.44%, rgba(116, 86, 76, 1) 50.2%, rgba(95, 88, 85, 1) 80.01%, rgba(88, 88, 88, 1) 100%);
+	background : -ms-radial-gradient(50% 50%, circle farthest-corner, rgba(164, 83, 54, 1) 0%, rgba(149, 84, 61, 1) 14.44%, rgba(116, 86, 76, 1) 50.2%, rgba(95, 88, 85, 1) 80.01%, rgba(88, 88, 88, 1) 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);"
+	background : radial-gradient(50% 50%, circle farthest-corner, rgba(164, 83, 54, 1) 0%, rgba(149, 84, 61, 1) 14.44%, rgba(116, 86, 76, 1) 50.2%, rgba(95, 88, 85, 1) 80.01%, rgba(88, 88, 88, 1) 100%);
+	border-style : Solid;
+	border-color : #FFFFFF;
+	border-color : rgba(255, 255, 255, 1);
+	border-width : 1px;
+	border-radius : 5px;
+	-moz-border-radius : 5px;
+	-webkit-border-radius : 5px;
+	padding: 5px 15px; 
+	font-weight: normal !important;
+	text-transform: uppercase; 
+}
+.Button:hover { 
+	
+	background : -moz-radial-gradient(50% 50%, circle farthest-corner, rgba(171, 82, 50, 1) 0%, rgba(167, 82, 52, 1) 22.72%, rgba(156, 83, 57, 1) 44.38%, rgba(136, 84, 66, 1) 65.62%, rgba(110, 86, 78, 1) 86.46%, rgba(88, 88, 88, 1) 100%);
+	background : -webkit-radial-gradient(50% 50%, circle farthest-corner, rgba(171, 82, 50, 1) 0%, rgba(167, 82, 52, 1) 22.72%, rgba(156, 83, 57, 1) 44.38%, rgba(136, 84, 66, 1) 65.62%, rgba(110, 86, 78, 1) 86.46%, rgba(88, 88, 88, 1) 100%);
+	background : -webkit-gradient(radial,50% 50% ,0 , 50% 50%, 69.34 ,color-stop(0,rgba(171, 82, 50, 1) ),color-stop(0.2272,rgba(167, 82, 52, 1) ),color-stop(0.4438,rgba(156, 83, 57, 1) ),color-stop(0.6562,rgba(136, 84, 66, 1) ),color-stop(0.8646,rgba(110, 86, 78, 1) ),color-stop(1,rgba(88, 88, 88, 1) ));
+	background : -o-radial-gradient(50% 50%, circle farthest-corner, rgba(171, 82, 50, 1) 0%, rgba(167, 82, 52, 1) 22.72%, rgba(156, 83, 57, 1) 44.38%, rgba(136, 84, 66, 1) 65.62%, rgba(110, 86, 78, 1) 86.46%, rgba(88, 88, 88, 1) 100%);
+	background : -ms-radial-gradient(50% 50%, circle farthest-corner, rgba(171, 82, 50, 1) 0%, rgba(167, 82, 52, 1) 22.72%, rgba(156, 83, 57, 1) 44.38%, rgba(136, 84, 66, 1) 65.62%, rgba(110, 86, 78, 1) 86.46%, rgba(88, 88, 88, 1) 100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);"
+	background : radial-gradient(50% 50%, circle farthest-corner, rgba(171, 82, 50, 1) 0%, rgba(167, 82, 52, 1) 22.72%, rgba(156, 83, 57, 1) 44.38%, rgba(136, 84, 66, 1) 65.62%, rgba(110, 86, 78, 1) 86.46%, rgba(88, 88, 88, 1) 100%);
+	border-style : Solid;
+	border-color : #FFFFFF;
+	border-width : 1px;
+	border-radius : 5px;
+	-moz-border-radius : 5px;
+	-webkit-border-radius : 5px;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Stlye=2);
+}
+#section{
+margin-left: auto;
+margin-right: auto;
+width:960px;
+}
+
+
+
+#article{
+margin-top:10px;	
+margin-bottom:10px;	
+ width:960px;
+ height:2286px;
+ background: url(../images/content-b.g.png);
+ margin-left: auto;
+ margin-right: auto;
+margin-top:10px;
+margin-bottom:10px;	
+}
+footer{
+	width:1280px;
+	height:300px;
+	background: url(../images/bg-footer.png);
+	
+
+	
+ }	
+#logofooter{
+	width:373px;
+	height:173px;
+	float:left;
+	background: url(../images/footerlogo.png);
+	
+}
+#Copyright{ 
+float: left; 
+width: 49%;
+text-align: left;
+font-family:Myriad Pro,Helvetica;
+position:absolute;
+bottom:-3000px;
+font-weight:normal;
+color:white;
+
+}
+
+h2{
+font-family:Myriad Pro,Helvetica;
+position:absolute;
+right:-60px;
+bottom:-2790px;
+font-size:14px;
+font-style:italic;
+font-weight:bold;
+color:white;
+text-transform:uppercase;		
+		
+}
+
+
+h3{
+font-family:Myriad Pro,Helvetica;
+position:absolute;
+right:-90px;
+bottom:-2900px;
+font-size:14px;
+font-style:italic;
+font-weight:bold;
+color:white;
+text-transform:uppercase;		
+		
+}
+footer p{
+	font-family : Myriad Pro;
+	font-size : 12px;
+	line-height : 18px;
+	letter-spacing : 1.2px;
+	color : white;
+	text-transform:uppercase;
+	position:absolute;
+	right:-90px;
+	bottom:-2915px;
+	text-align:justify;
+}
